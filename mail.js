@@ -1,6 +1,5 @@
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
-const { text } = require('stream/consumers');
 const path = require('path');
 
 dotenv.config();
