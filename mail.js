@@ -20,11 +20,11 @@ const mailOptions = {
         name: "Muzaffar Shaikh",
         address: process.env.SMTP_USER
     },
-    to: ["gaintm37@gmail.com"],
+    to: ["yourmail@gmail.com"],
     subject: "Test Email",
     text: "I am testing this email using nodemailer.",
     html: "<h3>HI HTML</h3>",
-    cc: ["muzz19609@gmail.com"],
+    cc: ["yourccmail@gmail.com"],
     attachments: [
         {
             filename: "Profile Image",
